@@ -69,20 +69,20 @@ Felendren3 = CreateObjective("KillMobsAndLoot",3,1,3,8335,TableToList(Felendren3
 -------------------------------------------
 
 
-AcceptQuestFrom(15278,8325);
+AcceptQuestFrom(15278,8325); --reclaiming-sunstrider-isle
 DoObjective(Wyrm);
 
 if CanTurnInQuest(8325) then
 	QuestGoToPoint(10357.44,-6363.365,35.02383)
 end
-TurnInQuestAt(15278,8325);
+TurnInQuestAt(15278,8325); --reclaiming-sunstrider-isle
 
-AcceptQuestFrom(15278,8326);
+AcceptQuestFrom(15278,8326); --unfortunate-measures
 DoObjective(Lynx);
 if CanTurnInQuest(8326) then
 	QuestGoToPoint(10357.44,-6363.365,35.02383)
 end
-TurnInQuestAt(15278,8326);
+TurnInQuestAt(15278,8326); --unfortunate-measures
 
 AcceptQuestFrom(15278,8327); -- Report to Lanthan
 AcceptQuestFrom(15295,8345); -- Shrine of Dath
@@ -118,30 +118,30 @@ TurnInQuestAt(15281,8327); -- Report to Lanthan
 AcceptQuestFrom(15281,8334); -- Agression
 DoObjective(Agression1);
 DoObjective(Agression2);
-TurnInQuestAt(15281,8334);
+TurnInQuestAt(15281,8334); -- Agression
 
-AcceptQuestFrom(15281,8335);
+AcceptQuestFrom(15281,8335); --felendren-the-banished
 DoObjective(Felendren1);
 DoObjective(Felendren2);
 DoObjective(Felendren3);
 if CanTurnInQuest(8335) then
 	QuestGoToPoint(10310.9,-6243.081,28.01551);
 end
-TurnInQuestAt(15281,8335);
-AcceptQuestFrom(15281,8347);
+TurnInQuestAt(15281,8335); --felendren-the-banished
+AcceptQuestFrom(15281,8347); --aiding-the-outrunners
 if CanTurnInQuest(8347) then
 	QuestGoToPoint(9987.498,-6474.038,0.9635663);
 end
-TurnInQuestAt(15301,8347);
+TurnInQuestAt(15301,8347); --aiding-the-outrunners
 
-AcceptQuestFrom(15301,9704);
-TurnInQuestAt(17849,9704);
-AcceptQuestFrom(17894,9705);
-TurnInQuestAt(15301,9705);
-AcceptQuestFrom(15301,8350);
+AcceptQuestFrom(15301,9704); --slain-by-the-wretched
+TurnInQuestAt(17849,9704); --slain-by-the-wretched
+AcceptQuestFrom(17894,9705); --package-recovery
+TurnInQuestAt(15301,9705); --package-recovery
+AcceptQuestFrom(15301,8350); --long-forgotten-memories
 if CanTurnInQuest(8350) then
 	QuestGoToPoint(9475.471,-6855.853,17.43426);
 end
-TurnInQuestAt(15433,8350);
+TurnInQuestAt(15433,8350); --long-forgotten-memories
 
 StopQuestProfile();
