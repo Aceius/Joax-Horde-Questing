@@ -125,18 +125,28 @@ DoObjective(Felendren1);
 DoObjective(Felendren2);
 DoObjective(Felendren3);
 if CanTurnInQuest(8335) then
+	QuestGoToPoint(10192.3,-5921.873,57.46289);
 	QuestGoToPoint(10310.9,-6243.081,28.01551);
 end
 TurnInQuestAt(15281,8335); --felendren-the-banished
 AcceptQuestFrom(15281,8347); --aiding-the-outrunners
+
 if CanTurnInQuest(8347) then
+	QuestGoToPoint(10105.53,-6307.314,11.79582);
 	QuestGoToPoint(9987.498,-6474.038,0.9635663);
 end
 TurnInQuestAt(15301,8347); --aiding-the-outrunners
 
 AcceptQuestFrom(15301,9704); --slain-by-the-wretched
+if CanTurnInQuest(9704) then
+	QuestGoToPoint(9939.396,-6518.774,8.642385);
+end
+
 TurnInQuestAt(17849,9704); --slain-by-the-wretched
 AcceptQuestFrom(17894,9705); --package-recovery
+if CanTurnInQuest(9705) then
+	QuestGoToPoint(9939.396,-6518.774,8.642385);
+end
 TurnInQuestAt(15301,9705); --package-recovery
 AcceptQuestFrom(15301,8350); --long-forgotten-memories
 if CanTurnInQuest(8350) then
